@@ -1,5 +1,4 @@
-
-#register, #login {
+ #login {
     width: 300px;
     border: 1px solid #d6d7da;
     padding: 0px 15px 15px 15px;
@@ -41,35 +40,3 @@
     color: #6B8E23;
     margin-bottom: 10px;
   }
-
-/* .login {
-
-    margin: 25px 50px 75px 100px;
-}
-.registor{
-
-    margin: 25px 50px 75px 100px;
-}
-.Registor{
-
-    margin: 25px 50px 75px 100px;    
-}
-.cancel{
-
-    margin: 25px 50px 75px 100px; 
-}
-
-.add{
-
-    margin-left: 25px 50px 75px 100px; 
-}
-
-.Add{
-
-    margin-left: 25px 50px 75px 100px; 
-} 
-
-.view{
-
-    margin-right: 25px 50px 75px 100px; 
-} */
