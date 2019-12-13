@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Login.css';
+import BrowserHistory from "./Utils/BrowserHestory";
+// import './Login.css';
 
 class Register extends Component {
   constructor() {
@@ -100,7 +101,9 @@ class Register extends Component {
 
 
   }
-
+  onHandleClick(){
+    BrowserHistory.push("/PostForm");
+    }
 
 
   render() {
@@ -124,6 +127,7 @@ class Register extends Component {
          <div className="errorMsg">{this.state.errors.password}</div>
          <input type="submit" className="button"  value="Register"/>
          </form>
+         <div ><button onClick={this.onHandleClick} className="button">Add User</button></div>
      </div>
  </div>
  
