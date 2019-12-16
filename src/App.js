@@ -16,7 +16,7 @@ function App() {
 <Route exact path='/' component={Login}></Route>  
  <Route exact path='/Register' component={Register}></Route> 
 <Route exact path= '/postform' component={PostForm}></Route>
- <Route exact path ='/allpost' component={ALLPost}></Route>
+ <Route exact path ='/postform' component={ALLPost}></Route>
 
 </switch>
   </Router> 
